@@ -53,6 +53,7 @@ h1 {
   text-align: justify;
   font-size: 89px;
   font-weight: 800;
+  line-height: 100%;
   padding-top: 90px;
 }
 .ptext {
@@ -255,6 +256,34 @@ h1 {
 .footer-container {
   background-color: #081315;
   padding: 40px 0px;
+}
+.footer-sub-container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 0px 10%;
+  gap: 50px;
+}
+.footer-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.copy-right {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-sub-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 /* Responsive design for tablet and mobile  using media quaries*/
