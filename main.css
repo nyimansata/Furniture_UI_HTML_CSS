@@ -14,9 +14,12 @@ header {
   justify-content: center;
   justify-content: space-between;
   align-content: center;
-  padding: 0px 22%;
+  /* padding: 0px 22%; */
   align-items: center;
   padding-top: 30px;
+  /* background-color: aqua; */
+  width: 57%;
+  margin: auto;
 }
 .header-content {
   display: flex;
@@ -54,6 +57,9 @@ h1 {
   font-weight: 800;
   line-height: 100%;
   padding-top: 90px;
+  /* background-color: aqua; */
+  width: 57%;
+  margin: auto;
 }
 .ptext {
   color: white;
@@ -67,8 +73,11 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 22rem;
+  gap: 24rem;
   padding-top: 10px;
+  /* background-color: aqua; */
+  width: 57%;
+  margin: auto;
 }
 .image {
   width: 100%;
