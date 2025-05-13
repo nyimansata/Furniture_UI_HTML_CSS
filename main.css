@@ -18,7 +18,7 @@ header {
   align-items: center;
   padding-top: 30px;
   /* background-color: aqua; */
-  width: 57%;
+  width: 58%;
   margin: auto;
 }
 .header-content {
@@ -53,12 +53,12 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   text-align: justify;
-  font-size: 85px;
+  font-size: 83px;
   font-weight: 800;
   line-height: 100%;
   padding-top: 90px;
   /* background-color: aqua; */
-  width: 57%;
+  width: 58%;
   margin: auto;
 }
 .ptext {
@@ -73,10 +73,10 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 24rem;
+  gap: 20rem;
   padding-top: 10px;
   /* background-color: aqua; */
-  width: 57%;
+  width: 56%;
   margin: auto;
 }
 .image {
