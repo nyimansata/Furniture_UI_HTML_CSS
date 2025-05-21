@@ -6,15 +6,16 @@
 
 header {
   background-color: #152d32;
+  padding: 0px 19%;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 30px 105px;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  padding: 30px 0px;
 }
 .header-content {
   display: flex;
@@ -36,8 +37,8 @@ header {
 .sub-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   padding-bottom: 20px;
 }
 .dreamText {
@@ -48,7 +49,7 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   text-align: justify;
-  font-size: 80px;
+  font-size: 91px;
   font-weight: 800;
   line-height: 1;
   padding-top: 80px;
@@ -65,9 +66,9 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 312px;
+  gap: 40%;
   padding-top: 10px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .image {
   width: 100%;
