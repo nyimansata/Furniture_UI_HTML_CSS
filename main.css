@@ -352,7 +352,7 @@ h1 {
 @media (max-width: 1024px) {
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .header-container {
     display: flex;
     flex-direction: row;
@@ -531,7 +531,7 @@ h1 {
     align-items: center;
     gap: 20px;
   }
-}
+} */
 
 @media (max-width: 425px) {
   .header-container {
@@ -564,5 +564,119 @@ h1 {
     font-weight: 600;
     line-height: 65px;
     color: #091416;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 15px;
+  }
+
+  .header-content,
+  .icons {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .subTextContainer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 42px;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .iframes-container-1,
+  .popular-furniture-container,
+  .popular-furniture-container2,
+  .groups-images,
+  .frame-26,
+  .blog-container,
+  .footer-sub-container,
+  .copy-right {
+    padding: 0 5%;
+  }
+
+  .popular-furniture-text-1,
+  .popular-furniture-text-2 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .frames-images1,
+  .frames_images2,
+  .frames-images3-container,
+  .blog-items {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-us-text {
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .footer-sub-container,
+  .footer-sub-container-2 {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-title,
+  .footer-text,
+  .footer-sub-title {
+    text-align: center;
+  }
+
+  .blog-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .popular-text-2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .rating-num {
+    font-size: 40px;
+  }
+
+  .about-us-text {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .frame_para {
+    font-size: 10px;
+  }
+
+  .footer-title {
+    font-size: 20px;
+  }
+
+  .footer-text,
+  .copy-right {
+    font-size: 12px;
   }
 }
