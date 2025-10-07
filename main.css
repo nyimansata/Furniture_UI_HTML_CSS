@@ -7,7 +7,6 @@
 header {
   background-color: #152d32;
 }
-
 .header-container {
   display: flex;
   justify-content: space-evenly;
@@ -72,7 +71,7 @@ h1 {
 .hero-text-container {
   display: flex;
   align-items: center;
-  gap: 300px;
+  gap: 440px;
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -139,7 +138,56 @@ h1 {
   color: #091416;
   padding-top: 16px;
 }
-
+.poputar_container {
+  padding-top: 20px;
+}
+.popular-furniture-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 27rem;
+  align-items: center;
+}
+.popular-text {
+  font-size: 36px;
+  font-weight: 700;
+  color: #091416;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+.right-arrow {
+  width: 45px;
+  height: 45px;
+}
+.ptext {
+  font-size: 12px;
+}
+.ptext-2 {
+  font-size: 16px;
+  color: #a1abad;
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15rem;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 20px;
+}
+.groups-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.group-img {
+  width: 20%;
+  height: 60vh;
+}
 /* responsiveness */
 @media (max-width: 1024px) {
   .header-container {
@@ -319,9 +367,9 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 19px;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   .frames_img_container {
     display: flex;
@@ -352,6 +400,91 @@ h1 {
     font-size: 13px;
     color: #091416;
     padding-top: 13px;
+  }
+  .popular-furniture-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 10rem; */
+    align-items: center;
+  }
+  .popular-text {
+    font-size: 36px;
+    font-weight: 700;
+    color: #091416;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+  .right-arrow {
+    width: 45px;
+    height: 45px;
+  }
+  .ptext {
+    font-size: 12px;
+  }
+  .ptext-2 {
+    font-size: 16px;
+    color: #a1abad;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .popular-furniture-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18rem;
+    align-items: center;
+  }
+  .popular-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #091416;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+  .right-arrow {
+    width: 32px;
+    height: 32px;
+  }
+  .ptext {
+    font-size: 12px;
+  }
+  .ptext-2 {
+    font-size: 11px;
+    color: #a1abad;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .groups-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  .group-img {
+    width: 20%;
+    height: 60vh;
+  }
+  .best-furniture {
+    font-weight: 400;
+    font-size: 12px;
   }
 }
 
@@ -480,6 +613,66 @@ h1 {
     color: #091416;
     padding-top: 8px;
   }
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2px;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .popular-furniture-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    align-items: center;
+  }
+  .popular-text {
+    font-size: 17px;
+    font-weight: 700;
+    color: #091416;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+  .right-arrow {
+    width: 30px;
+    height: 30px;
+  }
+  .ptext {
+    font-size: 12px;
+  }
+  .ptext-2 {
+    font-size: 6px;
+    color: #a1abad;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .groups-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  .group-img {
+    width: 20%;
+    height: 60vh;
+  }
+  .best-furniture {
+    font-weight: 400;
+    font-size: 6px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -590,6 +783,66 @@ h1 {
     color: #091416;
     padding-top: 8px;
   }
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .popular-furniture-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    align-items: center;
+  }
+  .popular-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #091416;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+  .right-arrow {
+    width: 27px;
+    height: 27px;
+  }
+  .ptext {
+    font-size: 12px;
+  }
+  .ptext-2 {
+    font-size: 5px;
+    color: #a1abad;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .groups-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  .group-img {
+    width: 20%;
+    height: 60vh;
+  }
+  .best-furniture {
+    font-weight: 400;
+    font-size: 5px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -669,5 +922,65 @@ h1 {
     font-size: 8px;
     width: 14px;
     color: white;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .popular-furniture-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    align-items: center;
+  }
+  .popular-text {
+    font-size: 11px;
+    font-weight: 700;
+    color: #091416;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+  .right-arrow {
+    width: 25px;
+    height: 25px;
+  }
+  .ptext {
+    font-size: 12px;
+  }
+  .ptext-2 {
+    font-size: 4px;
+    color: #a1abad;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .groups-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  .group-img {
+    width: 20%;
+    height: 60vh;
+  }
+  .best-furniture {
+    font-weight: 400;
+    font-size: 5px;
   }
 }
